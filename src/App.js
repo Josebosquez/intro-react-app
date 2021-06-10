@@ -26,7 +26,8 @@ export class App extends Component {
           >
             <h3> SideBar</h3>
             <ul className={"color"}>
-              {this.state.colorList.map((item, index) => { // map creates a new array based on what we are looking for.
+              {this.state.colorList.map((item, index) => {
+                // map creates a new array based on what we are looking for.
                 return (
                   <li
                     key={index}
@@ -43,12 +44,34 @@ export class App extends Component {
             <img
               className={"img"}
               src="https://i0.wp.com/www.animemaru.com/wp-content/uploads/2018/08/dont_lewd_lolis.jpg?w=640&ssl=1"
+              alt=""
             />
             <p>This is the Loli Police.</p>
             <div className={"squares"}>
-              <div>square 1</div>
-              <div>square 2</div>
-              <div>square 3</div>
+              <div className={"img"}>
+                <img
+                  className={"img"}
+                  src="https://i0.wp.com/www.animemaru.com/wp-content/uploads/2018/08/dont_lewd_lolis.jpg?w=640&ssl=1"
+                  alt=""
+                />
+                square 1
+              </div>
+              <div className={"img"}>
+                <img
+                  className={"img"}
+                  src="https://i0.wp.com/www.animemaru.com/wp-content/uploads/2018/08/dont_lewd_lolis.jpg?w=640&ssl=1"
+                  alt=""
+                />
+                square 2
+              </div>
+              <div className={"img"}>
+                <img
+                  className={"img"}
+                  src="https://i0.wp.com/www.animemaru.com/wp-content/uploads/2018/08/dont_lewd_lolis.jpg?w=640&ssl=1"
+                  alt=""
+                />
+                square 3
+              </div>
             </div>
           </div>
         </div>
